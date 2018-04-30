@@ -1,0 +1,5 @@
+o = open('originalFilePath.anyExt','r')
+d = open('destinationFilePath.anyExt','w')
+d.write(o.read())
+o.close()
+d.close()
